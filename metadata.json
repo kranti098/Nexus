@@ -1,0 +1,10 @@
+{
+  "name": "Nexus AI",
+  "description": "A supreme, hyper-intelligent AI system with full access modes, coding, and media generation capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

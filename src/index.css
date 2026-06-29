@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #050505;
+  color: #fff;
+}
+
+body.light-mode {
+  background-color: #f5f5f5;
+  filter: invert(1) hue-rotate(180deg);
+}
+
+body.light-mode img,
+body.light-mode video,
+body.light-mode iframe,
+body.light-mode svg {
+  filter: invert(1) hue-rotate(180deg);
+}
